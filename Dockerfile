@@ -1,4 +1,4 @@
-FROM node:18-alpine
+FROM node:20-alpine
 
 WORKDIR /app
 
@@ -12,3 +12,4 @@ RUN yarn build
 EXPOSE 9000
 
 CMD ["yarn", "start"]
+
